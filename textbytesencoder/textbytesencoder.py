@@ -25,6 +25,7 @@ DEALINGS IN THE SOFTWARE.
 
 import base64
 
+from typing import Optional
 from cryptography.fernet import Fernet
 
 
@@ -52,7 +53,7 @@ class Encoder(object):
     """
     __slots__ = ("_key", "_file")
 
-    def __init__(self, key: bytes = None, save_key: bool = False) -> None:
+    def __init__(self, key: Optional[bytes] = None, save_key: Optional[bool] = False) -> None:
         """
 
         Parameters

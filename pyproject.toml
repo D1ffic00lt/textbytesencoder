@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "textbytesencoder"
-version = "0.1.10"
+version = "0.1.11"
 description = "Module encoding and encrypting text by key"
 authors = ["D1ffic00lt <dm.filinov@gmail.com>"]
 license = "MIT License"
@@ -10,7 +10,7 @@ repository = "https://github.com/D1ffic00lt/textbytesencoder"
 documentation = "https://github.com/D1ffic00lt/textbytesencoder"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 
